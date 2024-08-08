@@ -1,7 +1,6 @@
 # Desafio - Client Server API
  
-Neste desafio vamos aplicar o que aprendemos sobre webserver http, contextos,
-banco de dados e manipulação de arquivos com Go.
+Neste desafio vamos aplicar o que aprendemos sobre webserver http, contextos, banco de dados e manipulação de arquivos com Go.
  
 Você precisará nos entregar dois sistemas em Go:
 - client.go
@@ -30,14 +29,14 @@ Clone o repositório
 git clone https://github.com/nicolastanski/go-client-server-api
 ```
 
-Inicie o servidor
+Execute o comando para executar o Server
 ```
-go run server.go
+go run cmd/server/server.go
 ```
 
-Execute o client para obter a cotação do Dólar
+Execute o comando para executar o Client e obter a cotação do Dólar
 ```
-go run client.go
+go run cmd/client/client.go
 ```
 
 Caso queira obter a cotação pela URL pode executar via curl
